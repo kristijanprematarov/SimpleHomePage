@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url(./font/Raleway-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,ul,.nav,.footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.headerLOGO {
+    background-image: url(./logo/abstract-black-tech-fold-shadow-background_1408-563.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    border-radius: 2rem;
+}
+
+.headerLOGO img {
+    animation: krislogo 6s infinite;
+}
+
+@keyframes krislogo {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
